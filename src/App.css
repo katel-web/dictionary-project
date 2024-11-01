@@ -1,5 +1,17 @@
+header {
+  font-size: 30px;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+}
+
 footer {
   font-size: 12px;
   text-align: center;
   margin-top: 20px;
+}
+
+body {
+  background-color: rgba(248, 241, 255, 0.642);
 }

@@ -1,3 +1,49 @@
+.Dictionary h2 {
+  font-size: 22px;
+  padding-top: 5px;
+}
+
 .form {
-  margin: 30px 0;
+  margin: 20px 0;
+}
+
+.Dictionary .inputForm {
+  max-width: 80%;
+}
+.Dictionary .searchButton {
+  width: 20%;
+  color: white;
+  background-color: #8000ff;
+  border: 1px solid #8000ff;
+  border-radius: 2px;
+  transition: all 150ms ease-in-out;
+}
+.searchButton:hover {
+  color: #8000ff;
+  background-color: white;
+}
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.Dictionary .instructions {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.Dictionary input {
+  width: 100%;
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.Dictionary .hint {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-top: 5px;
 }
