@@ -3,7 +3,7 @@ import "./Image.css";
 
 export default function Image(props) {
   if (props.image.photos) {
-    console.log(props.image.photos);
+    //console.log(props.image.photos);
     return (
       <section className="Photos">
         <div className="row mt-3">
