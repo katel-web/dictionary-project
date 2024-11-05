@@ -2,7 +2,7 @@ import React from "react";
 import "./Image.css";
 
 export default function Image(props) {
-  if (props.image.photos) {
+  if (props.image) {
     //console.log(props.image.photos);
     return (
       <section className="Photos">
