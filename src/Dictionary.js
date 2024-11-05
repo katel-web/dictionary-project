@@ -11,16 +11,18 @@ export default function Dictionary(props) {
   const [image, setImage] = useState(null);
 
   function handleResponse(response) {
+    //console.log(response.data);
     setResult(response.data);
   }
   function handleImageResponse(props) {
-    //console.log(props.data.photos);
+    console.log(props.data);
     setImage(props.data);
   }
   function search() {
     let apiKey = `8ff30efd06o4d12f7ftb8b44c4ad300b`;
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     // documentation: https://www.shecodes.io/learn/apis/dictionary
+    //console.log(apiUrl);
     axios.get(apiUrl).then(handleResponse);
 
     let imageApiKey = "8ff30efd06o4d12f7ftb8b44c4ad300b";
